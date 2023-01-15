@@ -1,0 +1,97 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    margin: 0px 20px 0px 20px;
+    background: linear-gradient(to left, rgb(221, 102, 181), rgb(138, 129, 221));
+    height: 80vh;
+}
+nav{
+    display: inline-block;
+}
+nav p{
+    margin-top: 0;
+    padding: 3px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    display: block;
+}
+nav p:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.logo{
+    margin: 4px;
+    margin-top: 0;
+    display: inline-block;
+}
+.logo div{
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgb(221, 102, 181), rgb(138, 129, 221));
+    padding: 5px;
+}
+.imgLink{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.imgLink div{
+    width: 440px;
+    box-shadow: 5px 5px 5px rgb(95, 83, 204);
+    border: 1px solid rgb(95, 83, 204);
+    border-radius: 5px;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+}
+
+.imgLink p{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    color: wheat;
+    box-shadow:  rgb(95, 83, 204);
+}
+
+.imgLink input{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 5px 1px 5px;
+    box-shadow: 3px 3px 3px rgb(95, 83, 204);
+    border: none;
+}
+.imgLink button{
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px 5px 5px;
+    box-shadow: 3px 3px 3px rgb(95, 83, 204);
+    border: none;
+    background-color:  rgb(128, 20, 128);
+}
+footer{
+    display: block;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
